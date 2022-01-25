@@ -13,6 +13,10 @@
 // Main Gameplay Loop
 // Close Game Function
 
+// High Score Display
+let highScore = 0;
+
+
 
 /*const id = setInterval(frame, 5);
 document.querySelector(`.start`).addEventListener(`click`, function() {

@@ -37,9 +37,14 @@ header {
   top: 400px;
 }
 
-/* LAYOUT 
+/* LAYOUT */
 
+.label-score {
+  margin-bottom: 2rem;
+  right: 1500px;
+}
 
+/*
 main {
   height: 65vh;
   color: rgb(23, 177, 9);
