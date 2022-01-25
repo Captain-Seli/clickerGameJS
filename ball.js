@@ -13,8 +13,25 @@
 // Main Gameplay Loop
 // Close Game Function
 
-// High Score Display
+// Score and Highscore
+let score = 0;
 let highScore = 0;
+
+function fn() {
+  score++;
+  console.log(score);
+};
+
+document.body.addEventListener(`click`, fn, true);
+
+document.querySelector(`.score`).textContent = 0;
+document.querySelector(`.highscore`).textContent = 0;
+
+// Set Highscore
+if (score > highScore) {
+  highScore = score;
+  document.querySelector(`.highscore`).textContent = highScore;
+}
 
 
 
