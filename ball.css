@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+/* Set Up Board */
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: rgb(23, 177, 9);
+  background-color: #222; 
+}
+
+header {
+  position: relative;
+  height: 10vh;
+  border-bottom: 7px solid rgb(15, 224, 231);
+}
+/*
+
+/* Set Up Ball */
+#ball {
+  width: 50px;
+  height: 50px;
+  border: 5px solid rgb(23, 177, 9);
+  border-radius: 50%;
+  background-color: rgb(23, 177, 9);
+  position: relative;
+  left: 850px;
+  top: 400px;
+}
+
+/* LAYOUT 
+
+
+main {
+  height: 65vh;
+  color: rgb(23, 177, 9);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+*/
